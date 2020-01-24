@@ -1,0 +1,13 @@
+.container {
+    padding-top: 60px;
+}
+
+:host {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
+}

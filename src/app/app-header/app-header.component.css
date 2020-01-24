@@ -1,0 +1,41 @@
+/* Import das Fontes */
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+/* ---------------- */
+
+/* Controle de estilo da NAVBAR */
+.app-header {
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.bg-orange {
+    background-color: orange;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.nav-item a {
+    border-bottom: 3px white dashed;
+}
+
+/* --------------------------- */
+
+/* Estilo do Botão de Login */
+.button-login span {
+    max-width: 0;
+    -webkit-transition: max-width 1s;
+    transition: max-width 1s;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .button-login:hover span {
+    max-width: 7rem;
+  }
+/* ----------------------- */
+
